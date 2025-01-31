@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+*{
+    margin: 0;
+    font-family: "Oswald", serif;
+    padding:0;
+
+
+
+    
+}
+#navbar ul{
+    display: flex;
+    gap: 15px;
+}
+#navbar ul li{
+    list-style: none
+    ;
+}
+#navbar ul li a{
+    color: black;
+    text-decoration: none;
+}
+header{
+    display: flex;
+    background-color: beige;
+    justify-content: space-around;
+    height: 70px;
+    margin: 100px
+}
+#banner .foto{
+    border-radius: 50px 0 50px 0;
+}
+
+/* From Uiverse.io by mi-series */ 
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+  }
+  
+  .form_area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #EDDCD9;
+    height: auto;
+    width: auto;
+    border: 2px solid #264143;
+    border-radius: 20px;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+  }
+  
+  .title {
+    color: #264143;
+    font-weight: 900;
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .sub_title {
+    font-weight: 600;
+    margin: 5px 0;
+  }
+  
+  .form_group {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    margin: 10px;
+  }
+  
+  .form_style {
+    outline: none;
+    border: 2px solid #264143;
+    box-shadow: 3px 4px 0px 1px #E99F4C;
+    width: 290px;
+    padding: 12px 10px;
+    border-radius: 4px;
+    font-size: 15px;
+  }
+  
+  .form_style:focus, .btn:focus {
+    transform: translateY(4px);
+    box-shadow: 1px 2px 0px 0px #E99F4C;
+  }
+  
+  .btn {
+    padding: 15px;
+    margin: 25px 0px;
+    width: 290px;
+    font-size: 15px;
+    background: #DE5499;
+    border-radius: 10px;
+    font-weight: 800;
+    box-shadow: 3px 3px 0px 0px #E99F4C;
+  }
+  
+  .btn:hover {
+    opacity: .9;
+  }
+  
+  .link {
+    font-weight: 800;
+    color: #264143;
+    padding: 5px;
+  }
